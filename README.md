@@ -2,7 +2,7 @@
 
 ## OAuth 2.0 
 
-- OAuth 2.0 enables applications to request for authorisation and obtain an access token to access the resources of an API.
+- OAuth 2.0 enables applications to request for authorisation and obtain an access token to access the resources of an API
 - OAuth 2.0 enables control over API authorisations for consumers
 - Scopes are used to control the access a consumer has to resources
 - OAuth 2.0 specification defined four grant types
