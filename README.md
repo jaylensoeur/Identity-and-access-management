@@ -1,7 +1,6 @@
-# Identity-and-access-management
-Identity and Access Management
+#Identity and Access Management
 
-## OAuth 2.0 
+##OAuth 2.0 
 
 - OAuth 2.0 enables applications to request for authorisation and obtain an access token to access the resources of an API.
 - OAuth 2.0 enables control over API authorisations for consumers
@@ -21,7 +20,7 @@ Identity and Access Management
 
 - A refresh token is used to obtain a new access token when the old access token expires
 
-## OpenID Connect
+##OpenID Connect
 
 - provides an identity layer on top of OAuth 2.0 to authenticate users
 - enables single sign-on (SSO)
