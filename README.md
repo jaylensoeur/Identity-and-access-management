@@ -32,3 +32,14 @@
 - Returning access tokens or refresh tokens via front-channel responses should be avoided by using a back-channel response or alternate response mode
 - Returning sensitive information in ID Tokens via front-channel responses should be avoided by using a back-channel response or the UserInfo endpoint or encrypting the ID Token if encryption is support
 
+## SAML
+- Is an XML-based framework for exchaning security information between business partners
+- Provided two features which became widely used:
+          * cros-domain SSO 
+          * identity federation
+- A SAML service provider delegates use authentication to an identity provider
+- A SAML identity provider authenticated a user and returns the results of a user authentication even in an XML message called an authentication response
+- An authentication response contains an authentication assertion with claims about the authnetication event and authenticated user
+- Identity federation establishes a common identitifer for a user between an identity provider and a service provider
+- Businesss customers of applications often want to use their corporate identity providers to authenticate their users to applications
+- New applications should consider using an authentication broker service or SAML library to simplify the task of supporting SAML
