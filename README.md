@@ -20,3 +20,16 @@ Identity and Access Management
      **Client Credentials** grant type is for API request where the application owns the request resource.
 
 - A refresh token is used to obtain a new access token when the old access token expires
+
+## OpenID Connect
+
+- provides an identity layer on top of OAuth 2.0 to authenticate users
+- enables single sign-on (SSO)
+- provides an ID Token and UserInfo endpoint to obtain user profile info
+- defines a set of standard claims that can be obtained about a user
+- allows for the use of additional, custom claims
+- defined three grant flows for different client profiles
+- provided several options for returning an authorisation code and/or security tokens via front channel or back challen response
+- returning access tokens or refresh tokens via front-channel responses should be avoided by using a back-channel response or alternate response mode
+- returning sensitive information in ID Tokens via front-channel responses should be avoided by using a back-channel response or the UserInfo endpoint or encrypting the ID Token if encryption is support
+
