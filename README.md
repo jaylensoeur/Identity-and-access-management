@@ -1,6 +1,6 @@
-#Identity and Access Management
+# Identity and Access Management
 
-##OAuth 2.0 
+## OAuth 2.0 
 
 - OAuth 2.0 enables applications to request for authorisation and obtain an access token to access the resources of an API.
 - OAuth 2.0 enables control over API authorisations for consumers
@@ -20,15 +20,15 @@
 
 - A refresh token is used to obtain a new access token when the old access token expires
 
-##OpenID Connect
+## OpenID Connect
 
-- provides an identity layer on top of OAuth 2.0 to authenticate users
-- enables single sign-on (SSO)
-- provides an ID Token and UserInfo endpoint to obtain user profile info
-- defines a set of standard claims that can be obtained about a user
-- allows for the use of additional, custom claims
-- defined three grant flows for different client profiles
-- provided several options for returning an authorisation code and/or security tokens via front channel or back challen response
-- returning access tokens or refresh tokens via front-channel responses should be avoided by using a back-channel response or alternate response mode
-- returning sensitive information in ID Tokens via front-channel responses should be avoided by using a back-channel response or the UserInfo endpoint or encrypting the ID Token if encryption is support
+- Provides an identity layer on top of OAuth 2.0 to authenticate users
+- Enables single sign-on (SSO)
+- Provides an ID Token and UserInfo endpoint to obtain user profile info
+- Defines a set of standard claims that can be obtained about a user
+- Allows for the use of additional, custom claims
+- Defined three grant flows for different client profiles
+- Provides several options for returning an authorisation code and/or security tokens via front channel or back challen response
+- Returning access tokens or refresh tokens via front-channel responses should be avoided by using a back-channel response or alternate response mode
+- Returning sensitive information in ID Tokens via front-channel responses should be avoided by using a back-channel response or the UserInfo endpoint or encrypting the ID Token if encryption is support
 
