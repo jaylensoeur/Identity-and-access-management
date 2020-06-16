@@ -3,9 +3,8 @@ Identity and Access Management
 
 ## OAuth 2.0 
 
-- OAuth 2.0 enables applications to request authorisation and obtain an access token to access resources of an API.
+- OAuth 2.0 enables applications to request for authorisation and obtain an access token to access the resources of an API.
 - OAuth 2.0 enables control over API authorisations for consumers
-
 - Scopes are used to control the access a consumer has to resources
 - OAuth 2.0 specification defined four grant types
      
@@ -18,6 +17,6 @@ Identity and Access Management
   
      **Password** grant type is best restricted to legact user migration cases as it exposes user credentials to an application.
   
-     **Client Credentials** grant type is for API calls where the application owns the request resource.
+     **Client Credentials** grant type is for API request where the application owns the request resource.
 
 - A refresh token is used to obtain a new access token when the old access token expires
