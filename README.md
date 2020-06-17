@@ -61,5 +61,5 @@
 - Encrypt sensitive data at rest and in transit, including backups and log files
 - Avoid storing cleartext passwords
 - Provide security training for developers
-- Vet partners by checking certifications and conductioning due diligence evaluation of security practices
+- Vet partners by checking certifications and conducting due diligence evaluation of security practices
 - Mitigate the risk of insider threat by granting minimum needed privileges and frequently reviewing access grant as well as logs
