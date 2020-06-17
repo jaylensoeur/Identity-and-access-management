@@ -48,3 +48,6 @@
 - Is the ability for a user to authenticate once and access multiple applications that delegate authentication to the same identity provider without the user re authneticating to each application
 - SSO with an identity provider avoids exposure of user credentials to applications
 - The use of an identity provider may relieve developers of the work to build login pages and account recovery mechanisms is each application
+- The use of an identity provider for SSO provides a single place to administer authentication policy and a single account shut-off point
+- SSO can create a single point of failure if not designed to be highly available as well as secure
+- Identity providers should be configured with session settings appropriate for the applications relying on the identity provider
