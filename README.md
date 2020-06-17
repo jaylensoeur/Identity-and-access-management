@@ -43,3 +43,8 @@
 - Identity federation establishes a common identitifer for a user between an identity provider and a service provider
 - Businesss customers of applications often want to use their corporate identity providers to authenticate their users to applications
 - New applications should consider using an authentication broker service or SAML library to simplify the task of supporting SAML
+
+## Single Sign On (SSO)
+- Is the ability for a user to authenticate once and access multiple applications that delegate authentication to the same identity provider without the user re authneticating to each application
+- SSO with an identity provider avoids exposure of user credentials to applications
+- The use of an identity provider may relieve developers of the work to build login pages and account recovery mechanisms is each application
