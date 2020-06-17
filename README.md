@@ -33,7 +33,7 @@
 - Returning sensitive information in ID Tokens via front-channel responses should be avoided by using a back-channel response or the UserInfo endpoint or encrypting the ID Token if encryption is support
 
 ## SAML
-- Is an XML-based framework for exchaning security information between business partners
+- SAML is an XML-based framework for exchaning security information between business partners
 - Provided two features which became widely used:
           * cros-domain SSO 
           * identity federation
@@ -45,9 +45,21 @@
 - New applications should consider using an authentication broker service or SAML library to simplify the task of supporting SAML
 
 ## Single Sign On (SSO)
-- Is the ability for a user to authenticate once and access multiple applications that delegate authentication to the same identity provider without the user re authneticating to each application
+- SSO is the ability for a user to authenticate once and access multiple applications that delegate authentication to the same identity provider without the user re authneticating to each application
 - SSO with an identity provider avoids exposure of user credentials to applications
 - The use of an identity provider may relieve developers of the work to build login pages and account recovery mechanisms is each application
 - The use of an identity provider for SSO provides a single place to administer authentication policy and a single account shut-off point
 - SSO can create a single point of failure if not designed to be highly available as well as secure
 - Identity providers should be configured with session settings appropriate for the applications relying on the identity provider
+
+## Mitigating Risks
+- Processes should be analysed for vulnerabilities
+- Train users to recognise and avoid phishing attacks to reduce risk of malware
+- Use Multi-factor authentication to mitigate the risk of compromised passwords
+- Monitor for software vulnerabilities and apply patches when vulnerabilities are announced
+- Follow secure configuration guidelines for all cloud-hosted components such as Amazon S3 buckets
+- Encrypt sensitive data at rest and in transit, including backups and log files
+- Avoid storing cleartext passwords
+- Provide security training for developers
+- Vet partners by checking certifications and conductioning due diligence evaluation of security practices
+- Mitigate the risk of insider threat by granting minimum needed privileges and frequently reviewing access grant as well as logs
