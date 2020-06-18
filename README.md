@@ -63,3 +63,10 @@
 - Provide security training for developers
 - Vet partners by checking certifications and conducting due diligence evaluation of security practices
 - Mitigate the risk of insider threat by granting minimum needed privileges and frequently reviewing access grant as well as logs
+
+
+Ref:
+
+Solving Identity Management in Modern Applications: Demystifying OAuth 2.0, OpenID Connect, and SAML 2.0 by Yvonne Wilson, Abhishek Hingnikar
+
+https://tools.ietf.org/html/rfc6749
