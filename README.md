@@ -14,7 +14,7 @@
     
     **Implicit** grant type is not recommended to obtain an access token with the default response mode as it exposes the access     token to potential compromise.
   
-     **Password** grant type is best restricted to legact user migration cases as it exposes user credentials to an application.
+     **Password Credentials** grant type is best restricted to legact user migration cases as it exposes user credentials to an application.
   
      **Client Credentials** grant type is for API request where the application owns the request resource.
 
