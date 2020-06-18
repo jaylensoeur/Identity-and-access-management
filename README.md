@@ -7,7 +7,7 @@
 - Scopes are used to control the access a consumer has to resources
 - OAuth 2.0 specification defined four grant types
      
-     **Authorization code** grant type with Proof Key for Code Exchange (PKCE, pronounced pixie) can be used by:
+     **Authorisation code** grant type with Proof Key for Code Exchange (PKCE, pronounced pixie) can be used by:
      * traditional web applications,
      * public applications,
      * as well as native applications
