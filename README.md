@@ -28,7 +28,7 @@
 - Defines a set of standard claims that can be obtained about a user
 - Allows for the use of additional, custom claims
 - Defined three grant flows for different client profiles
-- Provides several options for returning an authorisation code and/or security tokens via front channel or back challen response
+- Provides several options for returning an authorisation code and/or security tokens via front-channel or back-channel response
 - Returning access tokens or refresh tokens via front-channel responses should be avoided by using a back-channel response or alternate response mode
 - Returning sensitive information in ID Tokens via front-channel responses should be avoided by using a back-channel response or the UserInfo endpoint or encrypting the ID Token if encryption is support
 
