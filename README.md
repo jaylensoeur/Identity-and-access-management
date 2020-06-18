@@ -35,7 +35,7 @@
 ## SAML
 - SAML is an XML-based framework for exchaning security information between business partners
 - Provided two features which became widely used:
-     * cros-domain SSO 
+     * cross-domain SSO 
      * identity federation
           
 - A SAML service provider delegates use authentication to an identity provider
